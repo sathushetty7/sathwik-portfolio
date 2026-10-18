@@ -130,7 +130,7 @@ export default function Contact() {
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                 <span className="text-[#171717] font-semibold">
-                  Available for Full-Time Roles &amp; High-Impact Projects
+                  Available for Internships, Full-Time Roles &amp; High-Impact Projects
                 </span>
               </div>
             </div>

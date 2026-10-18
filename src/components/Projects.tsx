@@ -118,9 +118,16 @@ export default function Projects() {
                     isEven ? "" : "lg:flex-row-reverse"
                   }`}
                 >
-                  {/* Visual Preview Side (6 cols on desktop) */}
                   <div className={`lg:col-span-6 ${isEven ? "lg:order-2" : "lg:order-1"}`}>
-                    <ProjectVisualCanvas project={project} />
+                    <a
+                      href={project.liveUrl || project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7000FF] rounded-2xl"
+                      aria-label={`Open ${project.title} live website`}
+                    >
+                      <ProjectVisualCanvas project={project} />
+                    </a>
                   </div>
 
                   {/* Narrative Info Side (6 cols on desktop) */}

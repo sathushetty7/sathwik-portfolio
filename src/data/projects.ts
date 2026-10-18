@@ -25,7 +25,7 @@ export const projects: Project[] = [
     year: "2024",
     image: "/images/projects/coastal-kits.png",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe API", "PostgreSQL"],
-    liveUrl: "https://github.com/sathushetty7/coastal-kits",
+    liveUrl: "https://coastalkits.in",
     githubUrl: "https://github.com/sathushetty7/coastal-kits",
     metrics: "Sub-100ms interaction latency · 99.8% Lighthouse Performance",
     featured: true,
